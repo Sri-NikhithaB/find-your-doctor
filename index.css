@@ -1,0 +1,399 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.doctors-are-available {
+  position: absolute;
+  top: 418px;
+  left: 700px;
+  font-weight: 600;
+}
+.information-section-child {
+  position: absolute;
+  top: 419px;
+  left: 671px;
+  border-radius: 50%;
+  background-color: var(--color-steelblue);
+  width: 18px;
+  height: 18px;
+}
+.consult-with-our {
+  position: absolute;
+  top: 357px;
+  left: 700px;
+  font-weight: 600;
+}
+.information-section-item {
+  position: absolute;
+  top: 360px;
+  left: 671px;
+  border-radius: 50%;
+  background-color: var(--color-steelblue);
+  width: 18px;
+  height: 18px;
+}
+.search-your-specialist {
+  position: absolute;
+  top: 296px;
+  left: 700px;
+  font-weight: 600;
+}
+.information-section-inner {
+  position: absolute;
+  top: 299px;
+  left: 671px;
+  border-radius: 50%;
+  background-color: var(--color-steelblue);
+  width: 18px;
+  height: 18px;
+}
+.with-our-top {
+  position: absolute;
+  top: 162px;
+  left: 634px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 589px;
+}
+.doctor-img-2-1 {
+  position: absolute;
+  top: 54px;
+  left: 0;
+  width: 598px;
+  height: 396px;
+  object-fit: cover;
+}
+.best-quality-service {
+  position: absolute;
+  top: 0;
+  left: 598px;
+  font-size: 55px;
+  display: inline-block;
+  width: 692px;
+  height: 143px;
+}
+.info-sec,
+.information-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1290px;
+  height: 450px;
+}
+.info-sec {
+  top: 1303px;
+  left: 90px;
+}
+.find-your-doctor {
+  margin: 0;
+}
+.find-your-doctor-container {
+  position: absolute;
+  top: 386px;
+  left: 921px;
+  font-weight: 500;
+}
+.happy-consultations {
+  position: absolute;
+  top: 297px;
+  left: 917px;
+  font-size: var(--font-size-17xl);
+  font-weight: 600;
+}
+.search-section-child {
+  position: absolute;
+  top: 144px;
+  left: 1054px;
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke);
+  width: 100px;
+  height: 100px;
+}
+.search-symbol-black-2 {
+  position: absolute;
+  top: 164px;
+  left: 1071px;
+  width: 66.52px;
+  height: 60px;
+  object-fit: cover;
+}
+.appointment-1-icon:hover,
+.search-symbol-black-1:hover,
+.search-symbol-black-2:hover {
+  animation: 1s ease 0s infinite normal none scale-up;
+  opacity: 1;
+}
+.ask-for-an {
+  position: absolute;
+  top: 391px;
+  left: 470px;
+  font-weight: 500;
+  display: inline-block;
+  width: 414px;
+}
+.get-appointment {
+  position: absolute;
+  top: 297px;
+  left: 483px;
+  font-size: var(--font-size-17xl);
+  font-weight: 600;
+}
+.search-section-item {
+  position: absolute;
+  top: 138px;
+  left: 586px;
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke);
+  width: 100px;
+  height: 100px;
+}
+.appointment-1-icon {
+  position: absolute;
+  top: 153px;
+  left: 598px;
+  width: 75px;
+  height: 70.79px;
+  object-fit: cover;
+}
+.find-your-doctor-container1 {
+  position: absolute;
+  top: 386px;
+  left: 0;
+  font-weight: 500;
+}
+.find-best-doctors {
+  position: absolute;
+  top: 297px;
+  left: 29px;
+  font-size: var(--font-size-17xl);
+  font-weight: 600;
+}
+.search-section-inner {
+  position: absolute;
+  top: 144px;
+  left: 166px;
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke);
+  width: 100px;
+  height: 100px;
+}
+.search-symbol-black-1 {
+  position: absolute;
+  top: 164px;
+  left: 183px;
+  width: 66.52px;
+  height: 60px;
+  object-fit: cover;
+}
+.easy-steps-and {
+  position: absolute;
+  top: calc(50% - 219.5px);
+  left: 130px;
+  font-size: var(--font-size-41xl);
+}
+.search-section,
+.search-section1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1306px;
+  height: 439px;
+}
+.search-section {
+  top: 731px;
+  left: 111px;
+}
+.description-section-child {
+  position: absolute;
+  top: 359px;
+  left: 450px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-steelblue);
+  width: 30px;
+  height: 30px;
+}
+.lblsearchdoctors {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 283px;
+  height: 64px;
+}
+.search-symbol-white-1 {
+  position: absolute;
+  top: 361px;
+  left: 452px;
+  width: 26px;
+  height: 28px;
+  object-fit: cover;
+}
+.description-section-item {
+  position: absolute;
+  top: 365px;
+  left: 261px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke);
+  width: 125px;
+  height: 25px;
+}
+.select-area {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  position: absolute;
+  top: 365px;
+  left: 267px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 119px;
+}
+.description-section-inner {
+  position: absolute;
+  top: 360px;
+  left: 41px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke);
+  width: 170px;
+  height: 30px;
+}
+.find-your-doctor2 {
+  border: 0;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  position: absolute;
+  top: 362px;
+  left: 47px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 164px;
+}
+.doctor-image-1-1 {
+  position: absolute;
+  top: 0;
+  left: 700px;
+  width: 530px;
+  height: 425px;
+  object-fit: cover;
+}
+.join-us-and {
+  position: absolute;
+  top: 189px;
+  left: 9px;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  width: 586px;
+  height: 101px;
+}
+.suitable-doctors {
+  position: absolute;
+  top: 85px;
+  left: 29px;
+  font-weight: 600;
+  color: var(--color-steelblue);
+}
+.find-and-search {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.desc-section,
+.description-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1230px;
+  height: 425px;
+}
+.desc-section {
+  top: 227px;
+  left: 129px;
+  font-size: var(--font-size-41xl);
+}
+.get-started,
+.navbar-child {
+  position: absolute;
+  left: 1091px;
+}
+.navbar-child {
+  top: 1px;
+  border-radius: var(--br-3xs);
+  width: 188px;
+  height: 42px;
+}
+.get-started {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.about,
+.home,
+.services {
+  text-decoration: none;
+  position: absolute;
+  top: 1px;
+  left: 868px;
+  font-weight: 500;
+  color: inherit;
+}
+.about,
+.home {
+  left: 724px;
+}
+.home {
+  left: 576px;
+}
+.health-app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  color: var(--color-steelblue);
+  width: 272px;
+  height: 44px;
+  cursor: pointer;
+}
+.navbar {
+  position: absolute;
+  top: 62px;
+  left: 105px;
+  width: 1275px;
+  height: 45px;
+  font-size: var(--font-size-13xl);
+}
+.desktop-1 {
+  position: relative;
+  background-color: #ddebf1;
+  width: 100%;
+  height: 1801px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

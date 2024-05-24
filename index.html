@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="desktop-1">
+      <div class="info-sec">
+        <div class="information-section">
+          <div class="doctors-are-available">Doctors are available 24/7</div>
+          <div class="information-section-child"></div>
+          <div class="consult-with-our">Consult with our top specialists</div>
+          <div class="information-section-item"></div>
+          <div class="search-your-specialist">
+            Search your specialist & online consultation anywhere
+          </div>
+          <div class="information-section-inner"></div>
+          <div class="with-our-top">
+            With our top doctors, we are able to provide best Medical services
+            above average. We have highly experienced doctors, so don’t worry.
+          </div>
+          <img
+            class="doctor-img-2-1"
+            alt=""
+            src="./public/doctor-img-2-1@2x.png"
+          />
+
+          <b class="best-quality-service"
+            >Best quality service with our experienced doctors</b
+          >
+        </div>
+      </div>
+      <div id = "searchSection" class="search-section">
+        <div class="search-section1">
+          <div class="find-your-doctor-container">
+            <p class="find-your-doctor">
+              Find your doctor with minimum effort.
+            </p>
+            <p class="find-your-doctor">
+              We’ve kept everything organised for you
+            </p>
+          </div>
+          <div class="happy-consultations">Happy Consultations</div>
+          <div class="search-section-child"></div>
+          <img
+            class="search-symbol-black-2"
+            alt=""
+            src="./public/search-symbol-black-2@2x.png"
+          />
+
+          <div class="ask-for-an">
+            Ask for an appointment of a doctor quickly with almost a single
+            click
+          </div>
+          <div class="get-appointment">Get Appointment</div>
+          <div class="search-section-item"></div>
+          <img
+            class="appointment-1-icon"
+            alt=""
+            src="./public/appointment-1@2x.png"
+          />
+
+          <div class="find-your-doctor-container1">
+            <p class="find-your-doctor">
+              Find your doctor with minimum effort.
+            </p>
+            <p class="find-your-doctor">
+              We’ve kept everything organised for you
+            </p>
+          </div>
+          <div class="find-best-doctors">Find best doctor’s</div>
+          <div class="search-section-inner"></div>
+          <img
+            class="search-symbol-black-1"
+            alt=""
+            src="./public/search-symbol-black-2@2x.png"
+          />
+
+          <b class="easy-steps-and">3 Easy Steps and get your solution</b>
+        </div>
+      </div>
+      <div class="desc-section">
+        <div class="description-section">
+          <div class="description-section-child"></div>
+          
+          <button id ="search_btn" class="search-btn">
+              <img
+            class="search-symbol-white-1"
+            alt=""
+            src="./public/search-symbol-white-1@2x.png"
+          />
+          </button>
+          
+        
+
+          <div class="description-section-item"></div>
+          <input
+            id="doctor_area"
+            class="select-area"
+            type="text"
+            placeholder="Select Area"
+            maxlength
+            minlength
+          />
+
+          <div class="description-section-inner"></div>
+          <input
+            id="doctor_type"
+            class="find-your-doctor2"
+            type="text"
+            placeholder="find your doctor "
+            maxlength
+            minlength
+          />
+
+          <img
+            class="doctor-image-1-1"
+            alt=""
+            src="./public/doctor-image-1-1@2x.png"
+          />
+
+          <div class="join-us-and">
+            Join us and take of yourself and your family with Health services
+            that will make you feel confident and safe in your daily life.
+          </div>
+          <div class="suitable-doctors">Suitable Doctor's</div>
+          <div class="find-and-search">Find and Search Your</div>
+        </div>
+      </div>
+      <div class="navbar">
+        <img class="navbar-child" alt="" src="./public/rectangle-1.svg" />
+
+        <button class="get-started">Get Started</button>
+        <a class="services" href="services.html" target="_blank">Services</a>
+        <a class="about" href="about.html" target="_blank">About</a>
+        <a class="home" href="home.html" target="_blank">Home</a>
+        <b class="health-app" data-scroll-to="hEALTHAPPText" id="hEALTHAPPText"
+          >HEALTH APP</b
+        >
+      </div>
+    </div>
+
+    <script>
+      var hEALTHAPPText = document.getElementById("hEALTHAPPText");
+      if (hEALTHAPPText) {
+        hEALTHAPPText.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='hEALTHAPPText']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start" });
+          }
+        });
+      }
+      </script>
+  </body>
+  <script>
+    $(document).ready(function(){
+      $("#search_btn").click(function(){
+
+        var doctor_type = $("#doctor_type").val();
+        var doctor_area = $("#doctor_area").val();
+
+        $.post("webservice1.php",{search:doctor_type, area:doctor_area}, function(response){
+          $("#searchSection").html(response);
+        });
+
+      });
+    });
+  </script>
+</html>
